@@ -4,6 +4,7 @@ from tkinter import messagebox
 import customtkinter as ctk
 
 from form_bovino import FormBovino
+from form_finca import FormFinca
 
 # Configuración visual
 ctk.set_appearance_mode("Dark")
@@ -43,6 +44,8 @@ class MainWindow(ctk.CTk):
         
     def abrir_form2(self):
         FormBovino(self)
+    def abrir_form3(self):
+      FormFinca(self)
 
     # --- BARRA SUPERIOR Y RELOJ ---
     def crear_barra_superior(self):
@@ -244,7 +247,7 @@ class MainWindow(ctk.CTk):
 
     # --- MÉTODOS PARA ABRIR SUBFORMULARIOS ---
     #def abrir_form2(self): messagebox.showinfo("Módulo", "Abriendo Form2 (Bovinos)...")
-    def abrir_form3(self): messagebox.showinfo("Módulo", "Abriendo Form3 (Fincas)...")
+    #def abrir_form3(self): messagebox.showinfo("Módulo", "Abriendo Form3 (Fincas)...")
     def abrir_form4(self): messagebox.showinfo("Módulo", "Abriendo Form4 (Lote Bovinos)...")
     def abrir_form5(self): messagebox.showinfo("Módulo", "Abriendo Form5 (Empleados)...")
     def abrir_form6(self): messagebox.showinfo("Módulo", "Abriendo Form6 (Galeras)...")

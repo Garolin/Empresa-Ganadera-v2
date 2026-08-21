@@ -9,3 +9,4 @@ __pycache__/
 # Archivos de VS Code / PyCharm
 .vscode/
 .idea/
+.env
